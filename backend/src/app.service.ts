@@ -1,9 +1,9 @@
 import { Injectable } from '@nestjs/common';
-import { x } from 'core/src';
+import { Id } from '@core';
 
 @Injectable()
 export class AppService {
   getHello(): string {
-    return 'Hello World!';
+    return 'Legal ...' + Id.gerar();
   }
 }
