@@ -1,0 +1,7 @@
+POST https://vcruzz.app.n8n.cloud/webhook-test/assistente-pessoal
+Content-Type: application/json
+
+{
+  "chatId": "123456789",
+  "mensagem": "O Victor trabalha com desenvolvimento de software para mobile?"
+}

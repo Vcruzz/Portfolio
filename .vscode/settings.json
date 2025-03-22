@@ -2,5 +2,6 @@
     "code-runner.executorMap": {
          "typescript": "npx tsx",
         
-    }
+    },
+    "files.autoSave": "afterDelay"
 }
