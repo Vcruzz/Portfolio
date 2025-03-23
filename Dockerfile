@@ -29,4 +29,4 @@ COPY --from=builder /home/node/backend/node_modules ./node_modules
 COPY --from=builder /home/node/backend/dist ./dist
 COPY --from=builder /home/node/backend/prisma ./prisma
 
-CMD ["node", "dist/src/main.js"]
+CMD ["node", "dist/backend/src/main.js"]

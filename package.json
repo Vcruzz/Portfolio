@@ -1,0 +1,21 @@
+{
+  "name": "vcruzz",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "dev": "npx concurrently \"cd backend && npm run start:dev\" \"cd frontend && npm run dev\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vcruzz/Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vcruzz/Portfolio/issues"
+  },
+  "homepage": "https://github.com/Vcruzz/Portfolio#readme",
+  "description": ""
+}
